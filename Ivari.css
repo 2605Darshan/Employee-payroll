@@ -1,0 +1,162 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+
+
+/* Global styles for both pages */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Specific styles for the main page */
+body.main-page {
+    background-color: #f4f4f4;
+    /* Add background color for the main page */
+}
+
+.hero {
+    background: url('hero-background.jpg') center/cover no-repeat;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.features {
+    max-width: 1200px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature {
+    text-align: center;
+}
+
+/* footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+} */
+
+body {
+    font-family: 'Calibri', 'Helvetica', sans-serif;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    /* Remove default body margin */
+}
+
+form {
+    border: 3px solid #ffffff;
+    max-width: 400px;
+    /* Set the maximum width of the form */
+    margin: 0 auto;
+    /* Center the form horizontally */
+    padding: 20px;
+}
+
+.center-container {
+    text-align: center;
+}
+
+.icon img {
+    display: block;
+    margin: 0 auto;
+    /* Set the desired width for the logo */
+    width: 100px;
+    /* Set the desired height for the logo, adjust as needed */
+    height: auto;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    margin: 8px 0;
+    padding: 12px;
+    /* Adjust the padding for a medium size */
+    display: inline-block;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #040404;
+    width: 100%;
+    color: rgb(249, 249, 249);
+    padding: 12px;
+    /* Adjust the padding for a medium size */
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 12px 18px;
+    /* Adjust the padding for a medium size */
+    margin: 10px 5px;
+}
+
+.container {
+    padding: 30px;
+    /* Adjust the padding for a medium size */
+    background-color: hsl(180, 5%, 61%);
+    /* Change the background color as needed */
+    border-radius: 10px;
+}
+
+/* #footer {
+    background: #170202;
+    height: 100px;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    padding: 20px;
+} */
